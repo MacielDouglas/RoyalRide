@@ -1,7 +1,13 @@
-import React from "react";
+import { SidebarRoutes } from "../SidebarRoutes";
+import { LogoDashboard } from "../LogoDashboard";
 
-const Sidebar = () => {
-  return <div>Sidebar</div>;
-};
-
-export default Sidebar;
+export function Sidebar() {
+  return (
+    <div className="h-screen">
+      <div className="flex flex-col h-full border-r">
+        <LogoDashboard />
+        <SidebarRoutes />
+      </div>
+    </div>
+  );
+}

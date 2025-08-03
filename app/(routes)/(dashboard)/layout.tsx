@@ -1,4 +1,4 @@
-import Sidebar from "./dashboard/components/Sidebar/Sidebar";
+import { Sidebar } from "./dashboard/components/Sidebar";
 
 const LayoutDashboard = ({ children }: { children: React.ReactNode }) => {
   return (
