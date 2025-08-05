@@ -22,7 +22,7 @@ export const dataAdminSidebar = [
   {
     icon: Car,
     label: "Gerencie seus carros",
-    href: "/your-cars",
+    href: "/dashboard/admin/cars-manager",
   },
   {
     icon: Calendar,

@@ -1,4 +1,9 @@
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { SidebarRoutes } from "../SidebarRoutes";
 import { UserButton } from "@clerk/nextjs";
@@ -12,6 +17,7 @@ export function NavbarDashboard() {
             <Menu />
           </SheetTrigger>
           <SheetContent side="left">
+            <SheetTitle className="p-4">RoyalRide - SuperCars</SheetTitle>
             <SidebarRoutes />
           </SheetContent>
         </Sheet>
